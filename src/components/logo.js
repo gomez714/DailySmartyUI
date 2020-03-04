@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Logo extends Component {
+class Logo extends Component {
     render(){
         return(
             <div className="logo-main">
@@ -9,3 +9,5 @@ export default class Logo extends Component {
         )
     }
 }
+
+export default Logo; 
