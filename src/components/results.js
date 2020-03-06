@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from "../actions";
 import Logo from "./logo";
 import SearchBar from "./searchbar";
+import ResultsPosts from "./results-posts";
 
 class Results extends Component {
 
@@ -16,6 +17,7 @@ class Results extends Component {
                 
                 <Logo size={55}/>
                 <SearchBar onSubmit={(query) => this.handleSearchBarSubmit(query)} />
+                <ResultsPosts />
             </div>
         )
     }
