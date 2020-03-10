@@ -19,8 +19,15 @@ body {
 
     display: grid;
     align-content: space-around;
+    justify-items: stretch;
+}
+
+.logo-main, .recent-posts {
+    display: grid;
     justify-items: center;
 }
+
+
 $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
 
